@@ -60,4 +60,9 @@ public class Usuario {
 		this.senha = senha;
 	}
 
+	public Object getFoto() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

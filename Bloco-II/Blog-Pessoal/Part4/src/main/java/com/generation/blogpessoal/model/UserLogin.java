@@ -42,4 +42,14 @@ public class UserLogin {
 		this.token = token;
 	}
 
+	public void setFoto(Object foto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setId(long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
