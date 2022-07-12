@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.generation</groupId>
-	<artifactId>lojaGames</artifactId>
+	<artifactId>blogpessoal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lojaGames</name>
-	<description>Projeto banco de dados de uma loja de games</description>
+	<name>blogpessoal</name>
+	<description>Projeto Blog Pessoal desenvolvido no bootcamp da Generation!</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
