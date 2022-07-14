@@ -1,4 +1,4 @@
-package com.generation.lojaGames.model;
+package com.generation.blogpessoal.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,16 +17,26 @@ public class Usuario {
 	private long id;
 
 	@NotNull
-	@Size(min = 3, max = 100)
+	@Size(min = 5, max = 100)
 	private String nome;
 
 	@NotNull
-	@Size(min = 4, max = 100)
+	@Size(min = 5, max = 100)
 	private String usuario;
 
 	@NotNull
 	@Size(min = 5, max = 100)
 	private String senha;
+
+	public Usuario(Long id, String nome, String usuario, String senha, String foto) {
+		this.id = id;
+		this.nome = nome;
+		this.usuario = usuario;
+		this.senha = senha;
+	}
+
+	public Usuario() {
+	}
 
 	public long getId() {
 		return id;
@@ -59,6 +69,4 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
 }
-

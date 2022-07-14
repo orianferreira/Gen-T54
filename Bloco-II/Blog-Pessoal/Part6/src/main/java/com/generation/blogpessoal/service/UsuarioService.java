@@ -1,4 +1,4 @@
-package com.generation.lojaGames.service;
+package com.generation.blogpessoal.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.generation.lojaGames.model.Usuario;
-import com.generation.lojaGames.model.UsuarioLogin;
-import com.generation.lojaGames.repository.UsuarioRepository;
+import com.generation.blogpessoal.model.Usuario;
+import com.generation.blogpessoal.model.UsuarioLogin;
+import com.generation.blogpessoal.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
@@ -48,5 +48,4 @@ public class UsuarioService {
 
 		return null;
 	}
-
 }
